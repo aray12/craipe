@@ -1,0 +1,24 @@
+{
+  "name": "craipe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "craipe": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "build": "browserify index.js -o bundle.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "superagent": "^2.0.0",
+    "yargs": "^4.8.1"
+  },
+  "devDependencies": {
+    "browserify": "^13.0.1"
+  }
+}
